@@ -1,0 +1,101 @@
+
+
+
+body {
+	font-family: "Playfair Display", serif;
+	font-size: 15px;
+	color: rgb(30, 30, 30);
+	background-color: #F2E8D7;
+	text-align: center;
+}
+
+h1, h2, a {
+	font-family: "Lato", sans-serif;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+	color: rgb(103, 70, 54);
+	font-style: italic;
+}
+
+h2 {
+	font-size: 24px;
+	color: rgb(89, 116, 69);
+	font-weight: 500;
+	letter-spacing: 10px;
+}
+
+a {
+	text-decoration: none;
+	color : rgb(103, 70, 54);
+	font-weight: bolder;
+	font-size: 14px;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: rgb(30, 30, 30);
+}
+
+#container {
+	width: 800px;
+	margin : 50px auto;
+}
+
+
+@media (max-width: 760px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	padding-top : 20px;
+	margin : 30px;
+	border-radius: 4px;
+	box-shadow: 0 2px 30px rgb(0, 0, 0, 0.1);
+}
+
+.img-circle {
+	border-radius:50%;
+}
+
+.btn-brown {
+	background-color: rgb(103, 70, 54);
+	color: white;
+	padding: 10px 20px;
+	border-radius: 4px;
+}
+
+.btn-brown:hover {
+	background-color: rgb(30, 30, 30);
+	color:white;
+}
+
+.list-inline {
+	list-style : none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display:inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 40px;
+}
+
+#introduction p {
+	padding-bottom: 20px;
+}
